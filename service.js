@@ -2,11 +2,11 @@
 'use strict'
 var APP_ID = 'amzn1.ask.skill.6b80bb3f-2eba-4afa-b4b8-c5c88f6c145c'
 var AlexaSkill = require('./alexa-skill')
-var LaunchIntentFunction = require('./launch-intent-function.js')
-var GeneralJobsFunction = require('./general-jobs-intent-function.js')
-var HelpIntentFunction = require('./help-intent-function.js')
-var StopIntentFunction = require('./stop-intent-function.js')
-var CancelIntentFunction = require('./cancel-intent-function.js')
+var LaunchIntentFunction = require('./intents/launch-intent-function.js')
+var GeneralJobsFunction = require('./intents/general-jobs-intent-function.js')
+var HelpIntentFunction = require('./intents/help-intent-function.js')
+var StopIntentFunction = require('./intents/stop-intent-function.js')
+var CancelIntentFunction = require('./intents/cancel-intent-function.js')
 
 // Define a MuseJobsService function which inherits from AlexaSkill.js class
 var MuseJobsService = function () {

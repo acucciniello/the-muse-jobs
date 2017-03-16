@@ -1,5 +1,5 @@
-var getJobsData = require('./get-jobs-data.js')
-// var formatOutput = require('./helpers/format-output.js')
+var getJobsData = require('../helpers/get-jobs-data.js')
+var formatOutput = require('../helpers/format-output.js')
 
 module.exports = GeneralJobsFunction
 
@@ -16,7 +16,9 @@ function GeneralJobsFunction (intent, session, response) {
       response.tell(errorMsg)
       return
     }
-    response.tell(result)
-    return
+    formatOutput(result, function (output) {
+      response.tell(output)
+      return
+    })
   })
 }
