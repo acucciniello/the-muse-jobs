@@ -36,5 +36,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-#Dotenv Environment Variables
+# Dotenv Environment Variables
 .env
+
+# Compressed File for Lambda Function
+Archive.zip
