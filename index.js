@@ -1,4 +1,5 @@
 const got = require('got')
+require('dotenv').config()
 var jobsData
 var output = ''
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/acucciniello/the-muse-jobs/issues"
   },
-  "homepage": "https://github.com/acucciniello/the-muse-jobs#readme"
+  "homepage": "https://github.com/acucciniello/the-muse-jobs#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
 }
