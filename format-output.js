@@ -12,7 +12,7 @@
      } else {
        output = output + 'locations: '
        for (var j = 0; j < data.results[i].locations.length; j++) {
-         output = output + data.results[i].locations[j] + ' '
+         output = output + data.results[i].locations[j].name + ', '
        }
      }
      output = output + 'company: ' + data.results[i].company.name + '\n'
