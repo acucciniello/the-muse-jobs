@@ -2,7 +2,7 @@
 
 An Amazon Alexa skill that Gives you new job postings from themuse.com
 
-##Getting Started
+## Getting Started
 1. Must have an Amazon Echo to use this skill.  
 2. Open the Amazon Echo companion mobile application.
 3. Click on the Top Left Button to Open the Menu
@@ -12,9 +12,9 @@ An Amazon Alexa skill that Gives you new job postings from themuse.com
 7. Go to Your Amazon Echo
 8. Say "Alexa, launch Muse Jobs"
 
-##Usage
+# Usage
 
-###List Newest Job Postings General
+### List Newest Job Postings General
 
 Sample phrase to say to Alexa to list the newest five job postings:
 
@@ -24,7 +24,7 @@ Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
 
-###List Newest Job Postings Based on Location
+### List Newest Job Postings Based on Location
 
 Sample phrase to say to Alexa to list the newest five job postings at a specific location:
 
@@ -34,7 +34,7 @@ Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
 
-##TODO:
+## TODO:
 
 - [x] General Job Postings
 - [ ] Based on Location
@@ -42,7 +42,7 @@ Alexa's Response:
 - [ ] Project Site for this
 
 
-##License
+## License
 
 MIT 
 
