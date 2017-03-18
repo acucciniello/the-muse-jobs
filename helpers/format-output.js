@@ -12,7 +12,7 @@
      } else {
        output = output + 'locations: '
        for (var j = 0; j < data.results[i - 1].locations.length; j++) {
-         output = output + data.results[i - 1].locations[j] + ' '
+         output = output + data.results[i - 1].locations[j].name + ' '
        }
        output = output + ', \n'
      }
