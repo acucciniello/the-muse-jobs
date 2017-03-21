@@ -11,12 +11,12 @@ module.exports = LocationIntentFunction
 
 function LocationIntentFunction (intent, session, response) {
   var location = intent.slots.location.value
-  formatURL('location', location, function (url) {
-    /* if (err) {
+  formatURL('location', location, function (err, url) {
+    if (err) {
       var errorMsg = 'We could not find the city you were looking for'
       response.tell(errorMsg)
       return
-    } */
+    }
     getJobsData(url, function (err, result) {
       if (err) {
         var errorMsg = 'We failed pulling Data from Muse API'
