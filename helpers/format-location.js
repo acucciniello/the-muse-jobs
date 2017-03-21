@@ -1,5 +1,10 @@
 module.exports = formatLocation
 
+// Purpose: To Format the location given by the user in order to be acceptable by themuse API
+// param (in/out): url: given by previous function, is base url with the api key is returned with the proper location
+// param (in): value: the spoken location from the user
+// param (out): callback: passes url back to formatURL()
+
 function formatLocation (url, value, callback) {
   var urlLocation = 'location='
   var word

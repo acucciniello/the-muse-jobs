@@ -1,5 +1,9 @@
  module.exports = formatOutput
 
+// Purpose: To format the output to give 5 newest positions based off information given by user
+// param (in): data: Data received from themuse.com API request
+// param (out): callback: passes formatted output back to specific intent function
+
  function formatOutput (data, callback) {
    var output = ''
    for (var i = 1; i < 6; i++) {

@@ -4,7 +4,7 @@ var formatURL = require('../helpers/format-url.js')
 
 module.exports = LocationIntentFunction
 
-// Purpose: To find the top 5 newest job postings on themuse.com
+// Purpose: To find the top 5 newest job postings on themuse.com based off location
 // param (in): intent: given by Alexa, allows code to access parts of the intent request
 // param (in): session: given by Alexa, allows code to access parts of the session in the Lambda request
 // param (out): request: allows the user to change the response by Alexa
