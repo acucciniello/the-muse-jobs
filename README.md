@@ -37,7 +37,7 @@ Alexa's Response:
 ## TODO:
 
 - [x] General Job Postings
-- [ ] Based on Location
+- [X] Based on Location
 - [ ] Based off Experience Level
 - [ ] Project Site for this
 
