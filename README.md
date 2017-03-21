@@ -24,7 +24,7 @@ Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
 
-### List Newest Job Postings Based on Location
+### Location Search
 
 Sample phrase to say to Alexa to list the newest five job postings at a specific location:
 
@@ -34,11 +34,21 @@ Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
 
+### Experience Level Search
+
+Sample phrase to say to Alexa to list the newest five job postings with a given experience level:
+
+` "Alexa, ask Muse Jobs to show jobs that are Entry Level" `
+
+Alexa's Response:
+
+`"Job 1: Info: .... Location:.... Company: ...."`
+
 ## TODO:
 
 - [x] General Job Postings
 - [X] Based on Location
-- [ ] Based off Experience Level
+- [X] Based off Experience Level
 - [ ] Project Site for this
 
 
