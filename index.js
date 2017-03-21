@@ -2,9 +2,9 @@ const got = require('got')
 var formatOutput = require('./format-output.js')
 var formatURL = require('./format-url.js')
 var jobsData
-var value = 'west valley city, ut'
+var value = 'internship'
 
-formatURL('location', value, function (url) {
+formatURL('level', value, function (url) {
   got(url)
   .then((response) => {
     jobsData = JSON.parse(response.body)

@@ -1,3 +1,4 @@
+var formatLevel = require('./format-level.js')
 module.exports = formatURL
 
 require('dotenv').config()
@@ -36,8 +37,17 @@ function formatURL (type, value, callback) {
       urlLocation = urlLocation.substring(0, urlLocation.length - 1)
     }
     url = url + '&' + urlLocation
+    console.log(url)
+    callback(url)
+    return
+  } else if (type === 'level') {
+    formatLevel(url, value, function (err, url) {
+      if (err) {
+        callback(err)
+        return
+      }
+      callback(url)
+      return
+    })
   }
-  console.log(url)
-  callback(url)
-  return
 }

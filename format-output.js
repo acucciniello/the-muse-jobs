@@ -16,7 +16,7 @@
        }
      }
      output = output + 'company: ' + data.results[i].company.name + '\n'
-     console.log(output)
    }
+   console.log(output)
    return
  }
