@@ -11,15 +11,15 @@ function formatLevel (url, value, callback) {
   value = value.split(' ')
   if (value.length === 1) {
     // Case where level is Internship
-    word = value.charAt(0).toUpperCase()
-    value = value.replace(value.charAt(0), word)
-    urlLevel = urlLevel + value
+    word = value[0].charAt(0).toUpperCase()
+    value[0] = value[0].replace(value[0].charAt(0), word)
+    urlLevel = urlLevel + value[0]
   } else if (value.length === 2) {
     // Input is Entry Level, Mid Level or Senior Level
     for (var i = 0; i < value.length; i++) {
       word = value[i].charAt(0).toUpperCase()
       value[i] = value[i].replace(value[i].charAt(0), word)
-      urlLevel = urlLevel + value + '+'
+      urlLevel = urlLevel + value[i] + '+'
     }
     urlLevel = urlLevel.substring(0, urlLevel.length - 1)
   } else {
