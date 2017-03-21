@@ -24,6 +24,8 @@ Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cl_VoAN27ps" frameborder="0" allowfullscreen></iframe>
+
 ### Location Search
 
 Sample phrase to say to Alexa to list the newest five job postings at a specific location:
@@ -34,6 +36,8 @@ Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Afxe2Wsnajg" frameborder="0" allowfullscreen></iframe>
+
 ### Experience Level Search
 
 Sample phrase to say to Alexa to list the newest five job postings with a given experience level:
@@ -43,6 +47,8 @@ Sample phrase to say to Alexa to list the newest five job postings with a given 
 Alexa's Response:
 
 `"Job 1: Info: .... Location:.... Company: ...."`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5LuHBbDgksE" frameborder="0" allowfullscreen></iframe>
 
 ## TODO:
 
