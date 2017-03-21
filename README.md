@@ -51,6 +51,9 @@ Alexa's Response:
 - [X] Based off Experience Level
 - [ ] Project Site for this
 
+## Reference
+
+[TheMuse API](https://www.themuse.com/developers/api/v2)
 
 ## License
 
