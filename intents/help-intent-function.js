@@ -7,9 +7,11 @@ module.exports = HelpIntentFunction
 
 function HelpIntentFunction (intent, session, response) {
   var begin = 'This is a skill that allows you to find jobs using themuse.com '
-  var useFindNewest = 'In order to find the newest job postings, please say Alexa, ask muse jobs to give me the newest job postings. '
+  var useFindNewest = 'In order to find the newest job postings, please say Alexa, ask muse jobs to give me the newest job postings.  '
+  var useLocation = 'In order to find the newest job postings by location, please say Alexa, ask muse jobs to tell me the jobs near New York City Metro Area.  '
+  var useLevel = 'In order to find the newest job postings by location, please say Alexa, ask Muse Jobs to show jobs that are Entry Level.  '
   var question = 'What would you like to do ?'
-  var output = begin + useFindNewest + question
+  var output = begin + useFindNewest + useLocation + useLevel + question
   response.ask(output)
   return
 }
