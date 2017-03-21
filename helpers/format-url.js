@@ -1,4 +1,6 @@
 var formatLocation = require('./format-location.js')
+var formatLevel = require('./format-level.js')
+
 module.exports = formatURL
 
 // Purpose: To Format the url with information given by the user in order to be acceptable by themuse API
@@ -10,6 +12,15 @@ function formatURL (type, value, callback) {
   var url = 'https://api-v2.themuse.com/jobs?page=1&api_key=' + process.env.API_KEY
   if (type === 'location') {
     formatLocation(url, value, function (url) {
+      callback(null, url)
+      return
+    })
+  } else if (type === 'level') {
+    formatLevel(url, value, function (err, url) {
+      if (err) {
+        callback(err)
+        return
+      }
       callback(null, url)
       return
     })

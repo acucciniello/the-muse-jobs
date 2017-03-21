@@ -5,6 +5,7 @@ var AlexaSkill = require('./alexa-skill')
 var LaunchIntentFunction = require('./intents/launch-intent-function.js')
 var GeneralJobsFunction = require('./intents/general-jobs-intent-function.js')
 var LocationIntentFunction = require('./intents/location-intent-function')
+var LevelIntentFunction = require('./intents/level-intent-function.js')
 var HelpIntentFunction = require('./intents/help-intent-function.js')
 var StopIntentFunction = require('./intents/stop-intent-function.js')
 var CancelIntentFunction = require('./intents/cancel-intent-function.js')
@@ -26,6 +27,7 @@ MuseJobsService.prototype.eventHandlers.onLaunch = LaunchIntentFunction
 MuseJobsService.prototype.intentHandlers = {
   'GeneralJobsIntent': GeneralJobsFunction,
   'LocationIntent': LocationIntentFunction,
+  'LevelIntent': LevelIntentFunction,
   'AMAZON.HelpIntent': HelpIntentFunction,
   'AMAZON.StopIntent': StopIntentFunction,
   'AMAZON.CancelIntent': CancelIntentFunction
