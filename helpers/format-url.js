@@ -1,5 +1,6 @@
 var formatLocation = require('./format-location.js')
 var formatLevel = require('./format-level.js')
+var formatCategory = require('./format-category.js')
 
 module.exports = formatURL
 
@@ -17,6 +18,15 @@ function formatURL (type, value, callback) {
     })
   } else if (type === 'level') {
     formatLevel(url, value, function (err, url) {
+      if (err) {
+        callback(err)
+        return
+      }
+      callback(null, url)
+      return
+    })
+  } else if (type === 'category') {
+    formatCategory(url, value, function (err, url) {
       if (err) {
         callback(err)
         return
