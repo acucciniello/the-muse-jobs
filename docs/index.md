@@ -50,12 +50,18 @@ Alexa's Response:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5LuHBbDgksE" frameborder="0" allowfullscreen></iframe>
 
-## TODO:
+### Category Search
 
-- [x] General Job Postings
-- [x] Based on Location
-- [x] Based off Experience Level
-- [x] Project Site for this
+Sample phrase to say to Alexa to list the newest five job postings with a given job category:
+
+` "Alexa, ask Muse Jobs to tell me jobs that are in the category engineering" `
+
+Alexa's Response:
+
+`"Job 1: Info: .... Location:.... Company: ...."`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/81PsN0omKlE" frameborder="0" allowfullscreen></iframe>
+
 
 ## Reference
 
