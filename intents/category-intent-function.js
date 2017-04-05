@@ -11,6 +11,11 @@ module.exports = CategoryIntentFunction
 
 function CategoryIntentFunction (intent, session, response) {
   var category = intent.slots.category.value
+  if (category === undefined || category === null || category === '' || category === '{}') {
+    var noSlot = 'I am sorry, I did not get a category.  Please say: Alexa, ask fan muse jobs to tell me jobs that are in the category engineering'
+    response.ask(noSlot)
+    return
+  }
   formatURL('category', category, function (err, url) {
     if (err) {
       var errorMsg = 'We could not find the category you were looking for'

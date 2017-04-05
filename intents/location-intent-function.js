@@ -11,6 +11,11 @@ module.exports = LocationIntentFunction
 
 function LocationIntentFunction (intent, session, response) {
   var location = intent.slots.location.value
+  if (location === undefined || location === null || location === '' || location === '{}') {
+    var noSlot = 'I am sorry, I did not get a location.  Please say: Alexa, ask fan muse jobs to tell me jobs near New York City Metro Area'
+    response.ask(noSlot)
+    return
+  }
   formatURL('location', location, function (err, url) {
     if (err) {
       var errorMsg = 'We could not find the city you were looking for'

@@ -6,7 +6,7 @@ module.exports = LaunchIntentFunction
 // param (out): request: allows the user to change the response by Alexa
 
 function LaunchIntentFunction (intent, session, response) {
-  var output = 'Welcome to muse jobs.  You can find out the newest job postings here.  To start using the skill, say Alexa, ask muse jobs to give me the newest job postings. '
+  var output = 'Welcome to fan muse jobs.  You can find out the newest job postings here.  To start using the skill, say Alexa, ask fan muse jobs to give me the newest job postings. '
   response.ask(output)
   return
 }

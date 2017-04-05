@@ -7,10 +7,10 @@ An Amazon Alexa skill that Gives you new job postings from themuse.com
 2. Open the Amazon Echo companion mobile application.
 3. Click on the Top Left Button to Open the Menu
 4. Click on Skills
-5. Search "Muse Jobs"
+5. Search "Fan Muse Jobs"
 6. Click Enable Skill
 7. Go to Your Amazon Echo
-8. Say "Alexa, launch Muse Jobs"
+8. Say "Alexa, launch fan Muse Jobs"
 
 # Usage
 
@@ -18,7 +18,7 @@ An Amazon Alexa skill that Gives you new job postings from themuse.com
 
 Sample phrase to say to Alexa to list the newest five job postings:
 
-` "Alexa, ask Muse Jobs to give me the newest job postings" `
+` "Alexa, ask fan Muse Jobs to give me the newest job postings" `
 
 Alexa's Response:
 
@@ -30,7 +30,7 @@ Alexa's Response:
 
 Sample phrase to say to Alexa to list the newest five job postings at a specific location:
 
-` "Alexa, ask Muse Jobs to tell me the jobs near New York City Metro Area" `
+` "Alexa, ask fan Muse Jobs to tell me jobs near New York City Metro Area" `
 
 Alexa's Response:
 
@@ -42,7 +42,7 @@ Alexa's Response:
 
 Sample phrase to say to Alexa to list the newest five job postings with a given experience level:
 
-` "Alexa, ask Muse Jobs to show jobs that are Entry Level" `
+` "Alexa, ask fan Muse Jobs to show jobs that are Entry Level" `
 
 Alexa's Response:
 
@@ -54,7 +54,7 @@ Alexa's Response:
 
 Sample phrase to say to Alexa to list the newest five job postings with a given job category:
 
-` "Alexa, ask Muse Jobs to tell me jobs that are in the category engineering" `
+` "Alexa, ask fan Muse Jobs to tell me jobs that are in the category engineering" `
 
 Alexa's Response:
 

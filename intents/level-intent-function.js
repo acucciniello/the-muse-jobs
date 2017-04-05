@@ -11,6 +11,11 @@ module.exports = LevelIntentFunction
 
 function LevelIntentFunction (intent, session, response) {
   var level = intent.slots.level.value
+  if (level === undefined || level === null || level === '' || level === '{}') {
+    var noSlot = 'I am sorry, I did not get a level.  Please say: Alexa, ask fan muse jobs to show jobs that are Entry Level'
+    response.ask(noSlot)
+    return
+  }
   formatURL('level', level, function (err, url) {
     if (err) {
       var errorMsg = 'We could not find the experience level you were looking for'
@@ -30,4 +35,3 @@ function LevelIntentFunction (intent, session, response) {
     })
   })
 }
-
